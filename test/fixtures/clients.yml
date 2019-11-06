@@ -1,13 +1,13 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  nickname: MyString
-  birthdate: 2019-11-06
-  gender: MyString
+  name: Clark Kent
+  nickname: Superman
+  birthdate: 1972-07-10
+  gender: male
 
 two:
-  name: MyString
-  nickname: MyString
-  birthdate: 2019-11-06
-  gender: MyString
+  name: Seline Kyle
+  nickname: Catwoman
+  birthdate: 1983-05-21
+  gender: female
