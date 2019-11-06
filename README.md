@@ -1,24 +1,13 @@
-# README
+# Dead Simple Home Care
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a proof-of-concept on how to use pure Ruby on Rails to build a dead
+simple home care management system.
 
-Things you may want to cover:
+You should be able to add clients, create care plans and manage visits with
+tasks accomplished during such visits.
 
-* Ruby version
+## Not Included
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You should not expect from this any multi-tenancy support nor user
+authorization. Also, authentication is given based on full-trust, meaning you
+only need to enter your name on your first access to the system.
