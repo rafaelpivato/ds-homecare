@@ -23,12 +23,12 @@
 
   <div class="field">
     <%= form.label :birthdate %>
-    <%= form.date_select :birthdate %>
+    <%= form.date_select :birthdate, start_year: 1930 %>
   </div>
 
   <div class="field">
     <%= form.label :gender %>
-    <%= form.text_field :gender %>
+    <%= form.select :gender, Client.genders %>
   </div>
 
   <div class="actions">
